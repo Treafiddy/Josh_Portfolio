@@ -1,0 +1,215 @@
+body {
+    background: rgb(131,58,180);
+background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(237,26,26,1) 70%, rgba(252,176,69,1) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+.portfolio { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio__bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.bio__avatar {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 3%;
+    margin-bottom: 16px;
+}
+
+.bio__personal {
+    background-color: #00000080;
+    display: flex;
+    width: 90vw;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.personal__keys {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+.personal__values {
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;
+}
+
+.bio__skills {
+    background-color: #00000080;
+    padding: 16px;
+    width: 90vw;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+
+.portfolio__projects {
+    background-color: #00000080;
+    padding: 16px;
+    width: 90vw;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    
+}
+
+.bio__socials {
+    
+    width: 90%;
+    height: 60px;
+}
+
+button {
+    background-color: #4EFFDC;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 12px;
+    width: 93px;
+    margin-left: 4%;
+}
+
+button:hover {
+    background-color: #fcb045;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:focus, 
+button:focus-visible {
+    outline: 1px solid greenyellow;
+}
+
+button:active {
+    background-color: #4EFFDC;
+}
+
+.img {
+    display: flex;
+    height: 100px;
+    width: 100px; 
+}
+
+@media only screen and (min-width: 744px) {
+    
+    body {
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(237,26,26,1) 70%, rgba(252,176,69,1) 100%);
+    }
+
+    .portfolio { 
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+
+    }
+    
+    .portfolio__bio {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    
+    .bio__details {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .bio__avatar {
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        margin-bottom: 30px;
+        margin-left: 25%;
+    }
+    
+    .bio__personal {
+        background-color: #00000080;
+        display: flex;
+        width: 40vw;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .personal__keys {
+        display: flex;
+        flex-direction: column;
+        flex: 0.5;
+    }
+    
+    .personal__values {
+        display: flex;
+        flex-direction: column;
+        flex: 1.5;
+    }
+    
+    .bio__skills {
+        align-self: flex-start;
+        background-color: #00000080;
+        padding: 16px;
+        width: 40vw;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .portfolio__projects {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 16px;
+        width: 50%;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        margin-top: 1%;
+    }
+    
+    .bio__socials {
+        width: 90%;
+        height: 60px;
+    }
+
+    button {
+        margin-left: 100px;
+        background-color: #00aeff;
+        color: black;
+    }
+
+    .projects__text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .projects__left {
+        flex:1;
+    }
+
+    .projects__right {
+        flex:1;
+    }
+}
+
+
